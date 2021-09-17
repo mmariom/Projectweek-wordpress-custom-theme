@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@font-face {
+  font-family: Avenir-Next;
+  src: url("Avenir-Next.ttc");
+}
+
+@font-face {
+  font-family: Avenir-Next;
+  font-weight: bold;
+  src: url("Avenir-Next.ttc");
+}
+
+@font-face {
+  font-family: Avenir-Next;
+  font-weight: normal;
+  src: url("Avenir-Next.ttc");
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  color: white;
+}
+
+.header .headertextimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5vh;
+}
+
+.header .headertextimg .headerlogo {
+  width: 18vh;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.header .headertextimg .headertext {
+  padding-top: 10%;
+  width: 100%;
+  height: 20vh;
+}
+
+.header .headertextimg .headertext h2 {
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.header .headertextimg .headertext p {
+  padding: 0 30px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.header .imgheader {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 10vh 0  0  0;
+  min-width: 20vw;
+  min-height: 20vh;
+}
+
+@media (min-width: 769px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    color: white;
+  }
+  .header .headertextimg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 10vh;
+  }
+  .header .headertextimg .headerlogo {
+    margin-right: 1%;
+    width: 23vh;
+    margin-top: -6%;
+  }
+  .header .headertextimg .headerlogo a {
+    margin-bottom: 10px;
+  }
+  .header .headertextimg .headertext {
+    width: 50vh;
+    padding-top: 0;
+  }
+  .header .headertextimg .headertext h2 {
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .header .headertextimg .headertext p {
+    padding: 0;
+    text-align: left;
+    font-weight: 100;
+  }
+  .header .imgheader {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 3vh 0  8vh 0;
+    width: 40vw;
+    height: 75vh;
+  }
+}
+/*# sourceMappingURL=header.css.map */

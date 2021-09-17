@@ -1,0 +1,31 @@
+/*
+ Theme Name:   Project week theme
+ Author:      IDK
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@font-face {
+  font-family: Avenir-Next;
+  src: url("Avenir-Next.ttc");
+}
+
+@font-face {
+  font-family: Avenir-Next;
+  font-weight: bold;
+  src: url("Avenir-Next.ttc");
+}
+
+@font-face {
+  font-family: Avenir-Next;
+  font-weight: normal;
+  src: url("Avenir-Next.ttc");
+}
+
+body {
+  margin: 0;
+  font-family: 'Avenir-Next', sans-serif;
+  height: 100vh;
+  background: #193f6b;
+  background: radial-gradient(circle, #193f6b 0%, #183d68 28%, #092135 65%, #02131c 100%);
+}
+/*# sourceMappingURL=style.css.map */

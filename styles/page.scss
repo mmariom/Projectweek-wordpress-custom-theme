@@ -1,0 +1,282 @@
+
+$bgcolor : #02131C;
+$lightblue : #06B0F3;
+$progresionbarinside : #151f78 ;
+$turquoise: #028290;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@font-face { font-family: Avenir-Next;  src: url('Avenir-Next.ttc'); } 
+@font-face { font-family: Avenir-Next; font-weight: bold; src: url('Avenir-Next.ttc');}
+@font-face { font-family: Avenir-Next; font-weight: normal; src: url('Avenir-Next.ttc');}
+
+// page-home.php Mobile starts
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: white;
+    font-size: 12px;
+    padding: 0 10%;
+
+
+
+
+        section{
+            margin-bottom: 5vh;
+        }
+
+        h1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 14px;
+        }
+
+        .articleimg{
+            height: 30vh;
+
+        }
+
+
+        #desktophead{
+            display: none;
+        }
+
+        .progbars{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #myProgress {
+            width: 100%;
+            border: 3px solid $lightblue;
+          }
+          
+          #myBar {
+            width: 30%;
+            height: 100%;
+            background-color:  $progresionbarinside;
+          }
+
+          #myBar2 {
+            width: 60%;
+            height: 100%;
+            background-color:  $progresionbarinside;
+          }
+
+          #myBar3 {
+            width: 50%;
+            height: 100%;
+            background-color:  $progresionbarinside;
+          }
+          
+
+            .bar-1{
+                display: flex;
+                margin-bottom: 20px;
+              
+                    
+                span{
+                    padding-right: 4%;
+                   font-size: 30px;
+                    color: $lightblue;
+                    font-weight: bold;
+                }
+            }
+
+
+        .readmorebtn{
+           display: flex;
+           justify-content: center;
+
+            a{
+                width: 70%;
+
+           
+            }
+        }
+
+
+    .four{
+        background: rgb(2,130,144);
+        background: radial-gradient(circle, rgba(2,130,144,1) 0%, rgba(14,41,73,1) 100%);
+        border-radius: 25px;
+        border: solid $lightblue;
+        padding: 40px 20px;
+
+
+            .lst{
+
+                display: flex;
+                img{
+                    height: 20%;
+                    width: 20%;
+                }
+
+                h1{
+                    align-self: flex-end;
+                    margin-left: 10px;
+                    
+                }
+            }
+
+
+       .four{
+        background-color: $turquoise;
+        border-radius: 25px;
+        border: solid $lightblue;
+        padding: 40px 20px;
+
+
+            .lst{
+
+                display: flex;
+                img{
+                    height: 20%;
+                    width: 20%;
+                }
+
+                h1{
+                    align-self: flex-end;
+                    margin-left: 10px;
+                    
+                }
+            }
+
+            .lastphoto{
+                img{
+                    height: 100%;
+                }
+            }
+       
+
+
+    }
+
+
+
+
+    }
+}
+
+
+// page-home.php Mobile starts
+
+
+
+// page-home.php Desktop starts
+
+@media (min-width:  769px) {
+
+
+    main{
+        display: block;
+       
+    
+        padding: 5% 15% 0 15%; 
+   
+
+        #mobilehead{
+            display: none;
+        }
+
+        #desktophead{
+            display: block;
+            text-align: center;
+        }
+
+
+        .articleimg{
+            height: 50vh;
+
+        }
+          
+          
+    
+
+      .bigsecone{
+            display: flex;
+            flex-direction: row;
+           .one{
+            margin-right: 5%;
+           }
+      }
+
+      .bigsectwo{
+        display: flex;
+        flex-direction: row;
+        .three{
+            margin-right: 5%;
+           }
+      }
+    }
+
+
+    section{
+        .readmorebtn{
+
+            a{
+                width: 55%;
+
+             
+            }
+          
+    }  
+    }
+
+
+
+    .four{
+        background: rgb(2,130,144);
+        background: radial-gradient(circle, rgba(2,130,144,1) 0%, rgba(14,41,73,1) 100%);
+        border-radius: 25px;
+        border: solid $lightblue;
+        padding: 40px 20px;
+
+
+            .lst{
+
+                display: flex;
+                img{
+                    height: 20%;
+                    width: 20%;
+                }
+
+                h1{
+                    align-self: flex-end;
+                    margin-left: 10px;
+                    
+                }
+            }
+
+
+       
+
+
+
+        }
+
+
+        .btneff{
+            img{
+                transition: transform 1s;
+            }
+            img:hover {
+                transform: scale(1.3);
+              }
+        }
+
+
+   
+
+
+
+
+}
+
+
+
+
+// page-home.php Desktop starts

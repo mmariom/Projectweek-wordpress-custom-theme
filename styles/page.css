@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@font-face {
+  font-family: Avenir-Next;
+  src: url("Avenir-Next.ttc");
+}
+
+@font-face {
+  font-family: Avenir-Next;
+  font-weight: bold;
+  src: url("Avenir-Next.ttc");
+}
+
+@font-face {
+  font-family: Avenir-Next;
+  font-weight: normal;
+  src: url("Avenir-Next.ttc");
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: white;
+  font-size: 12px;
+  padding: 0 10%;
+}
+
+main section {
+  margin-bottom: 5vh;
+}
+
+main h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main p {
+  font-size: 14px;
+}
+
+main .articleimg {
+  height: 30vh;
+}
+
+main #desktophead {
+  display: none;
+}
+
+main .progbars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #myProgress {
+  width: 100%;
+  border: 3px solid #06B0F3;
+}
+
+main #myBar {
+  width: 30%;
+  height: 100%;
+  background-color: #151f78;
+}
+
+main #myBar2 {
+  width: 60%;
+  height: 100%;
+  background-color: #151f78;
+}
+
+main #myBar3 {
+  width: 50%;
+  height: 100%;
+  background-color: #151f78;
+}
+
+main .bar-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+main .bar-1 span {
+  padding-right: 4%;
+  font-size: 30px;
+  color: #06B0F3;
+  font-weight: bold;
+}
+
+main .readmorebtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .readmorebtn a {
+  width: 70%;
+}
+
+main .four {
+  background: #028290;
+  background: radial-gradient(circle, #028290 0%, #0e2949 100%);
+  border-radius: 25px;
+  border: solid #06B0F3;
+  padding: 40px 20px;
+}
+
+main .four .lst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .four .lst img {
+  height: 20%;
+  width: 20%;
+}
+
+main .four .lst h1 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: 10px;
+}
+
+main .four .four {
+  background-color: #028290;
+  border-radius: 25px;
+  border: solid #06B0F3;
+  padding: 40px 20px;
+}
+
+main .four .four .lst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .four .four .lst img {
+  height: 20%;
+  width: 20%;
+}
+
+main .four .four .lst h1 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: 10px;
+}
+
+main .four .four .lastphoto img {
+  height: 100%;
+}
+
+@media (min-width: 769px) {
+  main {
+    display: block;
+    padding: 5% 15% 0 15%;
+  }
+  main #mobilehead {
+    display: none;
+  }
+  main #desktophead {
+    display: block;
+    text-align: center;
+  }
+  main .articleimg {
+    height: 50vh;
+  }
+  main .bigsecone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .bigsecone .one {
+    margin-right: 5%;
+  }
+  main .bigsectwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .bigsectwo .three {
+    margin-right: 5%;
+  }
+  section .readmorebtn a {
+    width: 55%;
+  }
+  .four {
+    background: #028290;
+    background: radial-gradient(circle, #028290 0%, #0e2949 100%);
+    border-radius: 25px;
+    border: solid #06B0F3;
+    padding: 40px 20px;
+  }
+  .four .lst {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .four .lst img {
+    height: 20%;
+    width: 20%;
+  }
+  .four .lst h1 {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-left: 10px;
+  }
+  .btneff img {
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+  }
+  .btneff img:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+/*# sourceMappingURL=page.css.map */
