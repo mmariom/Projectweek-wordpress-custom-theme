@@ -26,16 +26,17 @@ main{
         }
 
         h1{
-            font-size: 30px;
+            font-size: 1.4rem;
             font-weight: bold;
         }
 
         p{
-            font-size: 14px;
+            font-size: 0.8rem;
         }
 
-        .articleimg{
+        .articleimg1 , .articleimg2 , .articleimg3 {
             height: 30vh;
+           
 
         }
 
@@ -43,48 +44,6 @@ main{
         #desktophead{
             display: none;
         }
-
-        .progbars{
-            display: flex;
-            flex-direction: column;
-        }
-
-        #myProgress {
-            width: 100%;
-            border: 3px solid $lightblue;
-          }
-          
-          #myBar {
-            width: 30%;
-            height: 100%;
-            background-color:  $progresionbarinside;
-          }
-
-          #myBar2 {
-            width: 60%;
-            height: 100%;
-            background-color:  $progresionbarinside;
-          }
-
-          #myBar3 {
-            width: 50%;
-            height: 100%;
-            background-color:  $progresionbarinside;
-          }
-          
-
-            .bar-1{
-                display: flex;
-                margin-bottom: 20px;
-              
-                    
-                span{
-                    padding-right: 4%;
-                   font-size: 30px;
-                    color: $lightblue;
-                    font-weight: bold;
-                }
-            }
 
 
         .readmorebtn{
@@ -96,7 +55,7 @@ main{
 
            
             }
-        }
+        } 
 
 
     .four{
@@ -107,20 +66,7 @@ main{
         padding: 40px 20px;
 
 
-            .lst{
-
-                display: flex;
-                img{
-                    height: 20%;
-                    width: 20%;
-                }
-
-                h1{
-                    align-self: flex-end;
-                    margin-left: 10px;
-                    
-                }
-            }
+   
 
 
        .four{
@@ -130,20 +76,7 @@ main{
         padding: 40px 20px;
 
 
-            .lst{
 
-                display: flex;
-                img{
-                    height: 20%;
-                    width: 20%;
-                }
-
-                h1{
-                    align-self: flex-end;
-                    margin-left: 10px;
-                    
-                }
-            }
 
             .lastphoto{
                 img{
@@ -171,12 +104,25 @@ main{
 @media (min-width:  769px) {
 
 
+    
+
+
     main{
         display: block;
        
     
         padding: 5% 15% 0 15%; 
    
+        h1{
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 0.9rem;
+        }
+
+
 
         #mobilehead{
             display: none;
@@ -188,10 +134,25 @@ main{
         }
 
 
-        .articleimg{
+        .articleimg1{
             height: 50vh;
-
+                img{
+                    height: 90%;
+                }
+              
         }
+        .articleimg2{
+            height: 50vh;
+                img{
+                    height: 80%;
+                }
+              
+        }
+        .articleimg3{
+            height: 50vh;
+              
+        }
+   
           
           
     
@@ -200,16 +161,31 @@ main{
             display: flex;
             flex-direction: row;
            .one{
+            width: 50%;   
             margin-right: 5%;
+            margin-top: 15%;
+           }
+
+           .two{
+               width: 50%;
            }
       }
+
+
+
+
 
       .bigsectwo{
         display: flex;
         flex-direction: row;
         .three{
+            width: 50%;
             margin-right: 5%;
            }
+
+        .four{
+            width: 50%;
+        }
       }
     }
 
@@ -218,13 +194,23 @@ main{
         .readmorebtn{
 
             a{
-                width: 55%;
+                width: 45%;
 
              
             }
           
     }  
+
+
+        .plastic{
+            padding: 20%;
+            margin-top: -15%;
+            margin-bottom: -25%;
     }
+    }
+
+
+   
 
 
 
@@ -236,21 +222,7 @@ main{
         padding: 40px 20px;
 
 
-            .lst{
-
-                display: flex;
-                img{
-                    height: 20%;
-                    width: 20%;
-                }
-
-                h1{
-                    align-self: flex-end;
-                    margin-left: 10px;
-                    
-                }
-            }
-
+           
 
        
 
@@ -270,7 +242,7 @@ main{
 
 
    
-
+        
 
 
 

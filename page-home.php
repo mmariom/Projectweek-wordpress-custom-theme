@@ -12,7 +12,7 @@ if ( have_posts() ) :
         <div class="bigsecone">
             <section class="one" id='deskfirst'>
                 <h1 id='mobilehead' ><?php the_field('section_one_title_mobile')?> </h1>
-                <div class="articleimg">
+                <div class="articleimg1">
                 <img src="<?php the_field('section_one_img')?>" alt="image1" width="100%" height="100%">            
 
                 </div>
@@ -25,42 +25,6 @@ if ( have_posts() ) :
 
 
 
-                <div class="progbars">
-
-
-                    <div class="bar-1">
-                            <span>30</span>
-                            <div id="myProgress">
-                                
-                                <div id="myBar"> </div>
-
-                            </div>
-                    </div>
-
-
-                    <div class="bar-1">
-                            <span>60</span>
-                            <div id="myProgress">
-                                
-                                <div id="myBar2"> </div>
-
-                            </div>
-                    </div>
-
-
-                    <div class="bar-1">
-                            <span>60</span>
-                            <div id="myProgress">
-                                
-                                <div id="myBar3"> </div>
-
-                            </div>
-                    </div>
-
-
-            
-            
-                </div>
 
 
                 <div class="readmorebtn">
@@ -78,16 +42,19 @@ if ( have_posts() ) :
 
             <section class="two" id='deskfirst'> 
                 <h1 id='mobilehead' ><?php the_field('section_two_title_mobile')?> </h1>
-                <div class="articleimg">
+                <div class="articleimg2">
                 <img src="<?php the_field('section_two_img')?>" alt="image2" width="100%" height="100%">         
 
                 </div>
                 <p></p>
-                <h1 id='desktophead'><?php the_field('section_two_title_desktop')?>  </h1>
+                <h1 id='desktophead' style="margin-top: -10%;"><?php the_field('section_two_title_desktop')?>  </h1>
                 <p>
                 <?php the_field('section_two_text')?>
                 </p>
 
+                <div class="plastic">
+                <img src="<?php echo get_template_directory_uri() ?>/images/plastic.svg" alt="plastic_chart" width="100%" height="100%">
+                </div>
 
 
                 <div class="readmorebtn">
@@ -105,7 +72,7 @@ if ( have_posts() ) :
         <div class="bigsectwo">
             <section class="three">
                 <h1 id='mobilehead'><?php the_field('section_three_title_mobile')?></h1>
-                <div class="articleimg">
+                <div class="articleimg3">
                 <img src="<?php the_field('section_three_img')?>" alt="image3" width="100%" height="100%">            
 
                 </div>
@@ -131,15 +98,9 @@ if ( have_posts() ) :
 
 
             <section class="four">
+                <h1 id='desktophead'> <?php the_field('section_four_title_all')?> </h1>
+             
 
-
-                <div class="lst">
-                    
-                    <img src="<?php the_field('section_four_icon')?>" alt="readmore" width="100%" height="100%">
-
-                    
-                    <h1><?php the_field('section_four_title_all')?></h1>
-                </div>
 
 
                 <p>
